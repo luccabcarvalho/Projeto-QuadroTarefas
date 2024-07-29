@@ -1,0 +1,184 @@
+
+/*MODAL DE DETALHES DO CARD*/
+    .modalDetalhes{
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .modalDetalhes-content {
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .modalDetalhes-content h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .modalDetalhes-content .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .modalDetalhes-content .col-3, .modalDetalhes-content .col-6, .modalDetalhes-content .col-8 {
+        flex: 1;
+        padding: 0 10px;
+    }
+
+    .modalDetalhes-content label {
+        font-weight: bold;
+        color: #666;
+    }
+
+    .modalDetalhes-content select, .modalDetalhes-content input[type="date"], .modalDetalhes-content textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .modalDetalhes-content textarea {
+        resize: vertical;
+    }
+
+    .modalDetalhes-content button {
+        background-color: #0078d4;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .modalDetalhes-content button:hover {
+        background-color: #005a9e;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* MODAL DE CRIAÇÃO DO CARD */
+
+/* MODAL DE CRIAÇÃO DO CARD */
+.modalCriacao {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalCriacao-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalCriacao-content h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.modalCriacao-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.modalCriacao-content .col-3,
+.modalCriacao-content .col-6,
+.modalCriacao-content .col-8 {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.modalCriacao-content label {
+    font-weight: bold;
+    color: #666;
+}
+
+.modalCriacao-content select,
+.modalCriacao-content input[type="date"],
+.modalCriacao-content textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.modalCriacao-content textarea {
+    resize: vertical;
+}
+
+.modalCriacao-content button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.modalCriacao-content button:hover {
+    background-color: #005a9e;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
